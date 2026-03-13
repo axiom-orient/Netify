@@ -4,13 +4,13 @@ Swift async/await 기반 네트워킹 라이브러리. 간단한 API, 안전한 
 
 ## 설치
 
-- Xcode: File > Add Packages... > `https://github.com/AidenJLee/Netify.git`
+- Xcode: File > Add Packages... > `https://github.com/axiom-orient/Netify.git`
 - Package.swift:
 
 ```swift
 // Package.swift
 dependencies: [
-  .package(url: "https://github.com/AidenJLee/Netify.git", from: "1.1.2"),
+  .package(url: "https://github.com/axiom-orient/Netify.git", from: "2.0.0"),
 ]
 targets: [
   .target(
@@ -20,7 +20,7 @@ targets: [
 ]
 ```
 
-현재 문서의 저장소 기준은 로컬 `git origin`인 `AidenJLee/Netify`입니다. 배포 저장소가 바뀌면 이 섹션과 CI 기준을 함께 바꾸세요.
+현재 배포 저장소 기준은 `axiom-orient/Netify`입니다. 로컬 원격이 예전 주소를 가리키더라도 GitHub 리디렉션에 의존하지 말고, 문서와 배포 기준은 이 주소로 유지하세요.
 
 `NetifyExamples` 실행 타깃은 배포용 API가 아니라 학습용 샘플입니다. 앱에서 라이브러리를 쓸 때는 `Netify` 제품만 연결하면 됩니다.
 
