@@ -1,11 +1,9 @@
-// swift-tools-version: 5.7
-// The swift-tools-version declares the minimum version of Swift required to build this package.
-// swift-tools-version:5.5
+// swift-tools-version: 6.0
 
-import PackageDescription // Keep this line
+import PackageDescription
 
 let package = Package(
-    name: "Netify", // Change package name
+    name: "Netify",
     platforms: [
         .iOS(.v15),
         .macOS(.v12)
@@ -31,5 +29,8 @@ let package = Package(
             dependencies: ["Netify"],
             path: "Examples"
         )
+    ],
+    swiftLanguageModes: [
+        .v6
     ]
 )
